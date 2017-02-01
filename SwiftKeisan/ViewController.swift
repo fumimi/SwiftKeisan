@@ -15,7 +15,11 @@ class ViewController: UIViewController {
     var kakezan = 0
     var warizan = 0
     
-
+    var prefectures = "Tokyo "
+    var city = "shibuya"
+    var result = ""
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         count = 10
@@ -34,6 +38,11 @@ class ViewController: UIViewController {
         warizan = 10
         warizan = 10 / 2
         print(warizan) // 5
+        
+        result = prefectures + city
+        print(result)
+        
+        
 
         
         
