@@ -9,15 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var count = 0
+    var plus = 0
+    var minus = 0
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        count = 10
+        count = 11
+        count = count + 1 // 12
+        print(count)
+
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+
+        
     }
 
 
